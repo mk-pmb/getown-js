@@ -1,5 +1,5 @@
 { "name": "getown",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Lookup an object property only if it's its own property.",
   "keywords": [],
 

@@ -17,7 +17,7 @@ This module exports one function:
 
 ### getown(obj, prop, fallback)
 
-Returns `obj[prop]` if `obj` has an own property `prop`,
+Returns `obj[prop]` if `obj` is truthy and has an own property `prop`,
 otherwise returns `fallback`.
 
 

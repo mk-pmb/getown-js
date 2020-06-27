@@ -3,5 +3,5 @@
 'use strict';
 
 var hop = Object.prototype.hasOwnProperty;
-function getown(o, p, d) { return (hop.call(o, p) ? o[p] : d); }
+function getown(o, p, d) { return (o && hop.call(o, p) ? o[p] : d); }
 module.exports = getown;

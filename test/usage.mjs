@@ -15,6 +15,9 @@ same(getown(dict, 'bar'), undefined);
 same(getown(dict, 'bar', 321), 321);
 same(typeof dict.toString, 'function');
 same(getown(dict, 'toString'), undefined);
+
+same(getown(null, 'wow'), undefined);
+same(getown(null, 'wow', 'doge'), 'doge');
 // ¦mjsUsageDemo¦-
 
 
