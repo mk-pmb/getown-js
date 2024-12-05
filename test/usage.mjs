@@ -3,7 +3,7 @@
 import assert from 'assert';
 
 // ¦mjsUsageDemo¦+
-import getown from '..';
+import getown from '../getown.js';
 // ¦mjsUsageDemo¦- importPkgName
 
 const same = assert.strictEqual;
